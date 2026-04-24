@@ -687,7 +687,7 @@ class MainWindow(QMainWindow):
 
         self.log_box = QTextEdit()
         self.log_box.setReadOnly(True)
-        self.log_box.setMaximumHeight(180)
+        self.log_box.setMaximumHeight(44)
         outer.addWidget(self.log_box)
 
         self.build_actions()
@@ -1290,7 +1290,7 @@ def main():
     app = QApplication(sys.argv)
     window = MainWindow()
     window.ensure_placeholder()
-    window.show()
+    window.showMaximized()
     sys.exit(app.exec())
 
 
