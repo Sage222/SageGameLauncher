@@ -4,7 +4,7 @@ Nice python GUI to launch games from from.  Gets release date and image from ste
 Needs python 3.12 for pygame to work. pygame does not support newer at this stage.
 
 Run:
-python -m pip install PyQt6 requests pygame
+python -m pip install PyQt6 requests pygame pywin32
 
 then python sagegamelauncherXX.py.
 
